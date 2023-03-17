@@ -27,6 +27,6 @@ public class UserDaoTest {
 
     @Test
     void whenUserDoesNotExistReturnedNull() {
-        assertNull(userDao.getUserByName("Name7"));
+        assertNull(userDao.getUserByName("Name8"));
     }
 }

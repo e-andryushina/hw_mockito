@@ -7,14 +7,14 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserServiceImpl implements UserService {
-    UserDao userDao;
+    UserDao userDao1;
 
     public UserServiceImpl(UserDao userDao) {
-        this.userDao = userDao;
+        this.userDao1 = userDao;
     }
 
     @Override
     public boolean checkUserExist(User user) {
-        return userDao.findAllUsers().contains(user);
+        return userDao1.findAllUsers().contains(user);
     }
 }
