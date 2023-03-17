@@ -29,7 +29,7 @@ public class UserServiceTest {
     User user3 = new User("Name3");
     User user4 = new User("Name4");
     User user5 = new User("Name5");
-    User user6 = new User("Name6");
+    User user6 = new User("Name7");
 
     List<User> userList;
 

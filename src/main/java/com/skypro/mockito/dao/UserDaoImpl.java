@@ -12,11 +12,12 @@ public class UserDaoImpl implements UserDao {
 
     public UserDaoImpl() {
         this.users = new ArrayList<>();
+        this.users.add(new User("Name0"));
         this.users.add(new User("Name1"));
         this.users.add(new User("Name2"));
         this.users.add(new User("Name3"));
         this.users.add(new User("Name4"));
-        this.users.add(new User("Name5"));
+
     }
 
     @Override
